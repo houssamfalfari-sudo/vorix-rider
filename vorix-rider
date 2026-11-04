@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VORIX RIDER - Site Officiel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 24px;
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 22px;
+            color: #2e7d32;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        p.description {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .btn-order {
+            display: inline-block;
+            width: 100%;
+            background-color: #25d366;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 14px 0;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-order:hover {
+            background-color: #1eb954;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Image importée depuis votre dépôt GitHub -->
+        <img src="vorix-gallery-1.png" alt="VORIX RIDER" class="product-image">
+
+        <h1>VORIX RIDER</h1>
+        <div class="price">Prix : Sur demande</div>
+
+        <p class="description">
+            Découvrez le produit VORIX RIDER. Haute qualité, design moderne et performance exceptionnelle. 
+            Commandez dès maintenant et profitez de la livraison rapide !
+        </p>
+
+        <!-- Remplacez 212600000000 par votre vrai numéro WhatsApp -->
+        <a href="https://wa.me/212600000000?text=Bonjour,%20je%20souhaite%20commander%20le%20produit%20VORIX%20RIDER" class="btn-order" target="_blank">
+            Commander sur WhatsApp
+        </a>
+
+        <footer>
+            &copy; 2026 VORIX RIDER - Tous droits réservés.
+        </footer>
+    </div>
+
+</body>
+</html>
